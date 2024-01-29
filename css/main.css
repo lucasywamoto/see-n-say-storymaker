@@ -15,7 +15,7 @@
 
 .container {
     width: 600px;
-    margin: 80px auto;
+    margin: 40px auto;
 }
 
 /* center buttons and distribute evenly */
@@ -25,7 +25,6 @@
     padding: 24px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 /* customize generated sentence */
@@ -45,6 +44,15 @@
     align-items: center;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+}
+
 .settingsPanel {
     display: flex;
     justify-content: space-between;
@@ -62,6 +70,9 @@
     border: solid 3px;
     border-radius: 40px;
     padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* customize buttons individually by ID*/
@@ -93,27 +104,22 @@
     color: #7e7e7e;
 }
 
-#btnOne {
+#column-1 .btn {
     border-color: #d300b5;
     color: #d300b5;
 }
 
-#btnTwo {
+#column-2 .btn {
     border-color: #04cff1;
     color: #04cff1;
 }
 
-#btnThree {
+#column-3 .btn {
     border-color: #12d000;
     color: #12d000;
 }
 
-#btnFour {
+#column-4 .btn {
     border-color: #ff8500;
     color: #ff8500;
-}
-
-#btnFive {
-    border-color: #ff46d7;
-    color: #ff46d7;
 }

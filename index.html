@@ -12,25 +12,46 @@
 	<div class="container">
 		<div class="logo">
 			<!-- add logo -->
-			<img src="imgs/seensay-logo.svg" alt="See N Say Logo" height="150px">
+			<img src="imgs/seensay-logo.svg" alt="See N Say Logo" height="100px">
 		</div>
 		<div class="btnsPanel">
-			<!-- create buttons 1 to 5 -->
-			<button id="btnOne" class="btn">1</button>
-			<button id="btnTwo"  class="btn">2</button>
-			<button id="btnThree" class="btn">3</button>
-			<button id="btnFour" class="btn">4</button>
-			<button id="btnFive" class="btn">5</button>
-		</div>
+			<!-- create columns 1 to 4 -->
+			<div class="column" id="column-1">
+				<button id="bee" class="btn"><img src="imgs/bee.png" alt="bee" height="40px"></button>
+				<button id="cat" class="btn"><img src="imgs/cat.png" alt="cat" height="40px"></button>
+				<button id="chameleon" class="btn"><img src="imgs/chameleon.png" alt="chameleon" height="40px"></button>
+				<button id="elephant" class="btn"><img src="imgs/elephant.png" alt="elephant" height="40px"></button>
+				<button id="fox" class="btn"><img src="imgs/fox.png" alt="fox" height="40px"></button>
+				<button id="frog" class="btn"><img src="imgs/frog.png" alt="frog" height="40px"></button>
+			</div>
+			<div class="column" id="column-2">
+				<button id="koala" class="btn"><img src="imgs/koala.png" alt="koala" height="40px"></button>
+				<button id="lion" class="btn"><img src="imgs/lion.png" alt="lion" height="40px"></button>
+				<button id="whale" class="btn"><img src="imgs/whale.png" alt="whale" height="40px"></button>
+				<button id="squirrel" class="btn"><img src="imgs/squirrel.png" alt="squirrel" height="40px"></button>
+				<button id="crab" class="btn"><img src="imgs/crab.png" alt="crab" height="40px"></button>
+				<button id="chicken" class="btn"><img src="imgs/hen.png" alt="chicken" height="40px"></button>
+			</div>
+			<div class="column" id="column-3">
+				<button id="jellyfish" class="btn"><img src="imgs/jellyfish.png" alt="jellyfish" height="40px"></button>
+				<button id="mouse" class="btn"><img src="imgs/mouse.png" alt="mouse" height="40px"></button>
+				<button id="rabbit" class="btn"><img src="imgs/rabbit.png" alt="rabbit" height="40px"></button>
+				<button id="snake" class="btn"><img src="imgs/snake.png" alt="snake" height="40px"></button>
+				<button id="octopus" class="btn"><img src="imgs/octopus.png" alt="octopus" height="40px"></button>
+				<button id="owl" class="btn"><img src="imgs/owl.png" alt="owl" height="40px"></button>
+			</div>
+			<div class="column" id="column-4">
+				<button id="sheep" class="btn"><img src="imgs/sheep.png" alt="sheep" height="40px"></button>
+				<button id="penguin" class="btn"><img src="imgs/penguin.png" alt="penguin" height="40px"></button>
+				<button id="duck" class="btn"><img src="imgs/ducky.png" alt="duck" height="40px"></button>
+				<button id="lobster" class="btn"><img src="imgs/lobster.png" alt="lobster" height="40px"></button>
+				<button id="shark" class="btn"><img src="imgs/shark.png" alt="shark" height="40px"></button>
+				<button id="bird" class="btn"><img src="imgs/bird.png" alt="bird" height="40px"></button>
+			</div>
+		</div>	
 		<div class="sentenceContainer">
 			<!-- create sentence -->
 			<p id="sentence"></p>
-		</div>
-		<div class="settingsPanel">
-			<!-- create buttons playback, random and reset -->
-			<button id="playbackBtn"  class="btn">Playback</button>
-			<button id="randomBtn" class="btn">Surprises</button>
-			<button id="resetBtn" class="btn">Reset</button>
 		</div>
 	</div>
 	<script src="js/app.js"></script>
