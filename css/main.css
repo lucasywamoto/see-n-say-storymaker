@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.container {
+    width: 600px;
+    margin: 80px auto;
+}
+
+/* center buttons and distribute evenly */
+.btnsPanel {
+    border: solid 3px #00b09b;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* customize generated sentence */
+.sentenceContainer {
+    border: solid 3px #00b09b;
+    border-radius: 24px;
+    background-color: #00b09b;
+    padding: 24px;
+    height: 100px;
+    margin: 24px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingsPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* customize buttons class*/
+.btn {
+    background-color: transparent;
+    font-size: 32px;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border: solid 3px;
+    border-radius: 40px;
+    padding: 16px;
+}
+
+/* customize buttons individually by ID*/
+#playbackBtn {
+    width: fit-content;
+    height:auto;
+    font-size: 24px;
+    border-color: #00b09b;
+    background-color: #00b09b;
+    color: #ffffff;
+    padding: 16px 42px;
+}
+
+#randomBtn {
+    width: fit-content;
+    height:auto;
+    font-size: 24px;
+    border-color: #fd4e4e;
+    color: #fd4e4e;
+    padding: 16px 42px;
+}
+
+#resetBtn {
+    width: fit-content;
+    height:auto;
+    font-size: 24px;
+    padding: 16px 42px;
+    border-color: #7e7e7e;
+    color: #7e7e7e;
+}
+
+#btnOne {
+    border-color: #d300b5;
+    color: #d300b5;
+}
+
+#btnTwo {
+    border-color: #04cff1;
+    color: #04cff1;
+}
+
+#btnThree {
+    border-color: #12d000;
+    color: #12d000;
+}
+
+#btnFour {
+    border-color: #ff8500;
+    color: #ff8500;
+}
+
+#btnFive {
+    border-color: #ff46d7;
+    color: #ff46d7;
+}
